@@ -1,0 +1,10 @@
+When I set up servers ,copy theese files
+
+usage
+----
+mkdir ~/gitrepos
+cd ~/gitrepos
+git clone git@github.com:monsat/server-config.git
+cd
+ln -s gitrepos/server-config/.gitconfig .
+
