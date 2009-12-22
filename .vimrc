@@ -72,3 +72,7 @@ let g:AutoComplPop_BehaviorHtmlOmniLength = -1
 "行番号
 set number
  
+"文字コード
+set encoding=utf-8
+set fileencodings=iso-2022-jp,sjis,euc-jp
+
