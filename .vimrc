@@ -76,3 +76,6 @@ set number
 set encoding=utf-8
 set fileencodings=iso-2022-jp,sjis,euc-jp
 
+"ファイル形式
+autocmd BufNewFile,BufRead virtualhost.conf set filetype=apache
+
