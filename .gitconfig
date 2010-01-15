@@ -7,4 +7,5 @@
 	spush = push --receive-pack=/home/directs/local/git/bin/git-receive-pack
 	spull = pull --upload-pack=/home/directs/local/git/bin/git-upload-pack
 	sclone = clone --upload-pack=/home/directs/local/git/bin/git-upload-pack
+	sfetch = fetch --upload-pack=/home/directs/local/git/bin/git-upload-pack
 
