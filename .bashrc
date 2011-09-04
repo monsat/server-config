@@ -11,6 +11,13 @@ alias vi='vim'
 alias l='ls -al'
 alias sudo='sudo '
 
-export PS1="\[\033[32m\][\w]\[\033[0m\]\n\[\033[1;36m\]\u\[\033[1;33m\]->\[\033[0m\]"
+# git-completion
+if [ -f ~/git-completion.bash ]; then
+	source ~/git-completion.bash
+fi
+
+
+export PS1='\[\033[32m\][\w]\[\033[0m\] $(__git_ps1 " (%s)")\n\[\033[1;36m\]\u\[\033[1;33m\]-> \[\033[0m\]'
+
 umask 022
 
