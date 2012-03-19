@@ -1,0 +1,37 @@
+.DS_Store
+*.zip
+*.tar.gz
+*.exe
+*.bz2
+.hg/
+Thumbs.db
+ 
+# backup
+*~
+*.bak
+ 
+# c/c++/objc
+a.out
+*.o
+*.a
+ 
+# python
+*.pyc
+build/
+dist/
+*.egg-info
+*.mo
+bulkloader-log-*
+ 
+# xcode
+*.pbxuser
+
+# Mac 
+.redcar
+
+# Vim
+.*.swp
+
+# svn
+.svn
+
