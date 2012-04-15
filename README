@@ -7,4 +7,8 @@ cd ~/gitrepos
 git clone git@github.com:monsat/server-config.git
 cd
 ln -s gitrepos/server-config/.gitconfig .
-
+ln -s gitrepos/server-config/defalt.gitignore .gitignore
+ln -s gitrepos/server-config/git-completion.bash .
+ln -s gitrepos/server-config/.vim .
+ln -s gitrepos/server-config/.vimrc .
+ln -s gitrepos/server-config/.screenrc .
